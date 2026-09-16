@@ -1,0 +1,9 @@
+Model,Best_Hyperparameters,CV10_F1_Mean,CV10_F1_Std,Fit_Time_Sec
+Logistic Regression,"{'C': 0.1, 'class_weight': None}",0.9397,0.0089,3.8
+XGBoost,"{'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.05}",0.9329,0.0163,55.9
+SVM,"{'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}",0.9322,0.0161,18.7
+Random Forest,"{'n_estimators': 200, 'min_samples_leaf': 1, 'max_depth': None, 'class_weight': 'balanced'}",0.9261,0.0196,40.2
+Naive Bayes,{'var_smoothing': 1e-09},0.9228,0.0308,0.2
+Decision Tree,"{'min_samples_leaf': 1, 'max_depth': 5, 'class_weight': None}",0.9179,0.0175,2.8
+ANN (MLP),"{'alpha': 0.001, 'hidden_layer_sizes': (50, 25)}",0.9098,0.0193,14.5
+KNN,"{'weights': 'uniform', 'n_neighbors': 3, 'metric': 'euclidean'}",0.6913,0.0381,1.2

@@ -1,0 +1,41 @@
+AI-POWERED LOAN ELIGIBILITY ASSESSMENT SYSTEM
+======================================================================
+
+Final Model: XGBoost
+Feature Set: Top 20 Features
+Number of Features: 20
+Train / Validation / Test Split: 70% / 15% / 15%
+Cross-Validation: 5-fold tuning + 10-fold stratified CV
+Primary Metric: Weighted F1
+
+FINAL TEST PERFORMANCE
+--------------------------------------------------
+Accuracy: 0.9367
+Precision (Weighted): 0.9380
+Recall (Weighted): 0.9367
+F1-Score (Weighted): 0.9372
+ROC-AUC (Weighted OvR): 0.9925
+Matthews Correlation Coefficient: 0.8744
+
+SELECTED FEATURES
+--------------------------------------------------
+1. Applicant_Risk_Category_High_Risk
+2. KYC_Verification_Status_Pending
+3. Risk_Score_Points
+4. Video_KYC_Completed
+5. Over_Leverage_Flag
+6. KYC_Verification_Status_Rejected
+7. KYC_Verification_Status_Verified
+8. Residual_Income_Ratio
+9. Past_Loan_Defaults_Count
+10. Composite_Credit_Risk_Score
+11. CIBIL_Score
+12. Projected_DTI_After_Loan
+13. Existing_Loans_Count
+14. Default_Rate_Proxy_Pct
+15. RBI_LTV_Cap_Breach_Flag
+16. Age_at_Loan_Maturity
+17. GDP_Growth_Rate_Pct
+18. Debt_to_Income_Ratio
+19. Processing_Fee_INR
+20. Credit_Quality_Score
